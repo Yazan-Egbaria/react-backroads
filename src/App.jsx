@@ -3,6 +3,7 @@ import Header from "./components/header/Header";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
 import Featured from "./components/featured/Featured";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <About />
       <Services />
       <Featured />
+      <Footer />
     </>
   );
 }
